@@ -1,0 +1,30 @@
+.register-container {
+  background-color: #111;
+  color: white;
+  padding: 30px;
+  border-radius: 10px;
+  width: 320px;
+  margin: 40px auto;
+  box-shadow: 0 0 10px #000;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #222;
+  border: 1px solid #444;
+  color: white;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #ffcc00;
+  color: #000;
+  font-weight: bold;
+  padding: 10px;
+  border: none;
+  width: 100%;
+  border-radius: 6px;
+  cursor: pointer;
+}

@@ -1,0 +1,8 @@
+<div class="login-container">
+  <h2>Login</h2>
+  <form (submit)="login(); $event.preventDefault()">
+    <input type="text" placeholder="Email or Contact" [(ngModel)]="loginData.identifier" name="identifier" required />
+    <input type="password" placeholder="Password" [(ngModel)]="loginData.password" name="password" required />
+    <button type="submit">Login</button>
+  </form>
+</div>

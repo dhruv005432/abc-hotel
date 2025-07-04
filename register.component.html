@@ -1,0 +1,19 @@
+<div class="register-container">
+  <h2>Register</h2>
+  <form (submit)="register(); $event.preventDefault()">
+    <input type="text" placeholder="First Name" [(ngModel)]="user.firstName" name="firstName" required>
+    <input type="text" placeholder="Middle Name" [(ngModel)]="user.middleName" name="middleName">
+    <input type="text" placeholder="Last Name" [(ngModel)]="user.lastName" name="lastName" required>
+
+    <input type="date" [(ngModel)]="user.dob" name="dob" (change)="calculateAge()" required>
+    <input type="text" [value]="user.age" readonly placeholder="Age">
+
+    <input type="email" placeholder="Email" [(ngModel)]="user.email" name="email" required>
+    <input type="password" placeholder="Create Password" [(ngModel)]="user.password" name="password" required>
+    <input type="password" placeholder="Confirm Password" [(ngModel)]="user.confirmPassword" name="confirmPassword" required>
+
+    <input type="text" placeholder="Contact Number" [(ngModel)]="user.contact" name="contact" required>
+
+    <button type="submit">Register</button>
+  </form>
+</div>

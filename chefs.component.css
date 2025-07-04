@@ -1,0 +1,45 @@
+.chef-section {
+  background: #111;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.chef-section h2 {
+  color: #ffd700;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.chef-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.chef-card {
+  background-color: #222;
+  padding: 20px;
+  width: 280px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(255, 215, 0, 0.2);
+  transition: transform 0.3s;
+}
+
+.chef-card:hover {
+  transform: scale(1.05);
+}
+
+.chef-card img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.chef-card h3 {
+  color: #ffcc00;
+  margin: 10px 0 5px;
+}

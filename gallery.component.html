@@ -1,0 +1,10 @@
+<section class="gallery-section">
+  <h2>Our Food Gallery</h2>
+  <div class="gallery-grid">
+    <div class="gallery-card" *ngFor="let item of gallery">
+      <img [src]="item.imageUrl" [alt]="item.title" />
+      <h3>{{ item.title }}</h3>
+      <p>{{ item.description }}</p>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,65 @@
+.about-wrapper {
+  background-color: #111;
+  color: #fff;
+  padding: 60px 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.about-content {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.about-text {
+  flex: 1 1 400px;
+  max-width: 600px;
+}
+
+.about-title-box {
+  border: 2px solid #fff;
+  display: inline-block;
+  padding: 0.5rem 2rem;
+  margin-bottom: 1.2rem;
+  font-size: 2rem;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.about-icon {
+  font-size: 2rem;
+  margin: 10px 0;
+  display: block;
+}
+
+.about-text p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #ccc;
+}
+/* =============================
+   ABOUT IMAGE GRID
+============================= */
+.about-images {
+  flex: 1 1 350px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.about-images img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease;
+}
+
+.about-images img:hover {
+  transform: scale(1.05);
+}
+

@@ -1,0 +1,12 @@
+<section class="chef-section">
+  <h2>Meet Our Chefs</h2>
+  <div class="chef-list">
+    <div *ngFor="let chef of chefs" class="chef-card">
+      <img [src]="chef.image" alt="{{ chef.name }}" />
+      <h3>{{ chef.name }}</h3>
+      <p><strong>Specialty:</strong> {{ chef.specialty }}</p>
+      <p><strong>Experience:</strong> {{ chef.experience }}</p>
+      <p>{{ chef.bio }}</p>
+    </div>
+  </div>
+</section>

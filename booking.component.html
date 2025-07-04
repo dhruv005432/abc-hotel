@@ -1,0 +1,12 @@
+<section class="booking-section">
+  <h2>Reserve a Table</h2>
+  <form (submit)="submitBooking(); $event.preventDefault()" class="booking-form">
+    <input type="text" placeholder="Your Name" [(ngModel)]="booking.name" name="name" required />
+    <input type="date" [(ngModel)]="booking.date" name="date" required />
+    <input type="time" [(ngModel)]="booking.time" name="time" required />
+    <input type="number" [(ngModel)]="booking.guests" name="guests" min="1" max="20" required />
+    <input type="text" placeholder="Contact Number" [(ngModel)]="booking.contact" name="contact" required />
+    <textarea placeholder="Special Request" [(ngModel)]="booking.specialRequest" name="specialRequest"></textarea>
+    <button type="submit">Book Now</button>
+  </form>
+</section>

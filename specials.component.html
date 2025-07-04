@@ -1,0 +1,13 @@
+<section class="specials-section">
+  <h2><i class="fas fa-star icon"></i> Today’s Specials</h2>
+
+  <div class="specials-grid">
+    <div class="special-card" *ngFor="let special of specials">
+      <img [src]="special.image" [alt]="special.name">
+      <h3>{{ special.name }}</h3>
+      <p>{{ special.description }}</p>
+      <div class="price">₹{{ special.price }}</div>
+      <i class="fas fa-fire icon"></i>
+    </div>
+  </div>
+</section>
