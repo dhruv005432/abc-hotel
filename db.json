@@ -1,0 +1,364 @@
+{
+  "menu": [
+    {
+      "id": "1",
+      "name": "Gujarati Combo Thali",
+      "category": "Combo Offer",
+      "price": 199,
+      "image": "assets/food1.jpeg"
+    },
+    {
+      "id": "2",
+      "name": "Punjabi Masala Thali",
+      "category": "Combo Offer",
+      "price": 220,
+      "image": "assets/food2.jpeg"
+    },
+    {
+      "id": "3",
+      "name": "Paneer Paratha Combo",
+      "category": "Combo Offer",
+      "price": 180,
+      "image": "assets/food3.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Dhokla & Farsan Platter",
+      "category": "Breakfast",
+      "price": 120,
+      "image": "assets/dhokla1.jpeg"
+    },
+    {
+      "id": "5",
+      "name": "Idli Sambhar Set",
+      "category": "Breakfast",
+      "price": 100,
+      "image": "assets/idli.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Poha with Jalebi",
+      "category": "Breakfast",
+      "price": 90,
+      "image": "assets/poha.jpeg"
+    },
+    {
+      "id": "7",
+      "name": "Chole Bhature",
+      "category": "Breakfast",
+      "price": 110,
+      "image": "assets/food4.jpg"
+    },
+    {
+      "id": "8",
+      "name": "Rava Upma Plate",
+      "category": "Breakfast",
+      "price": 95,
+      "image": "assets/upma.jpg"
+    },
+    {
+      "id": "9",
+      "name": "South Indian Lunch Thali",
+      "category": "Lunch Time",
+      "price": 160,
+      "image": "assets/south-lunch.jpg"
+    },
+    {
+      "id": "10",
+      "name": "Rajma Chawal Lunch",
+      "category": "Lunch Time",
+      "price": 130,
+      "image": "assets/rajma-chawal.jpeg"
+    },
+    {
+      "id": "11",
+      "name": "Mix Veg Curry & Roti",
+      "category": "Lunch Time",
+      "price": 150,
+      "image": "assets/mix-veg.jpg"
+    },
+    {
+      "id": "12",
+      "name": "Dal Tadka with Jeera Rice",
+      "category": "Lunch Time",
+      "price": 140,
+      "image": "assets/dal-tadka.jpg"
+    },
+    {
+      "id": "13",
+      "name": "Veg Pulao with Raita",
+      "category": "Lunch Time",
+      "price": 135,
+      "image": "assets/raita.jpg"
+    },
+    {
+      "id": "14",
+      "name": "Paneer Butter Masala",
+      "category": "Dinner",
+      "price": 190,
+      "image": "assets/paneer-butter.jpg"
+    },
+    {
+      "id": "15",
+      "name": "Malai Kofta with Naan",
+      "category": "Dinner",
+      "price": 210,
+      "image": "assets/malai-kofta.jpeg"
+    },
+    {
+      "id": "16",
+      "name": "Dal Makhani with Butter Roti",
+      "category": "Dinner",
+      "price": 180,
+      "image": "assets/dal-makhani.jpg"
+    },
+    {
+      "id": "17",
+      "name": "Aloo Gobi Masala",
+      "category": "Dinner",
+      "price": 160,
+      "image": "assets/aloo-gobi.jpeg"
+    },
+    {
+      "id": "18",
+      "name": "Sev Tameta Sabji",
+      "category": "Dinner",
+      "price": 150,
+      "image": "assets/sev-tameta.jpeg"
+    },
+    {
+      "id": "19",
+      "name": "Stuffed Capsicum Curry",
+      "category": "Dinner",
+      "price": 175,
+      "image": "assets/stuffed-capsicum.jpeg"
+    },
+    {
+      "id": "20",
+      "name": "Mix Roti Basket",
+      "category": "Dinner",
+      "price": 130,
+      "image": "assets/roti.jpeg"
+    }
+  ],
+  "orders": [
+    {
+      "id": "1",
+      "name": "Gujarati Combo Thali",
+      "category": "Combo Offer",
+      "price": 199,
+      "image": "assets/menu/gujarati-combo.jpg",
+      "time": "7/3/2025, 2:34:11 PM"
+    },
+    {
+      "id": "1",
+      "name": "Kaju Curry Royal",
+      "price": 250,
+      "description": "Rich cashew gravy with Indian spices",
+      "image": "assets/specials/kaju-curry.jpg",
+      "time": "7/3/2025, 2:39:02 PM",
+      "source": "Specials"
+    },
+    {
+      "id": "1",
+      "name": "Kaju Curry Royal",
+      "price": 250,
+      "description": "Rich cashew gravy with Indian spices",
+      "image": "assets/specials/kaju-curry.jpg",
+      "time": "7/3/2025, 2:40:00 PM",
+      "source": "Specials"
+    },
+    {
+      "id": "2",
+      "name": "Tricolor Veg Sizzler",
+      "price": 300,
+      "description": "Steamed veggies with paneer tikka & sauces",
+      "image": "assets/specials/sizzler.jpg",
+      "time": "7/3/2025, 2:40:02 PM",
+      "source": "Specials"
+    },
+    {
+      "id": "3",
+      "name": "Navratna Korma",
+      "price": 270,
+      "description": "9 ingredient royal gravy curry",
+      "image": "assets/specials/navratna.jpg",
+      "time": "7/3/2025, 2:40:05 PM",
+      "source": "Specials"
+    },
+    {
+      "id": "4",
+      "name": "Cheese Garlic Naan Combo",
+      "price": 190,
+      "description": "Cheese Naan + Butter Paneer + Raita",
+      "image": "assets/specials/cheese-naan.jpg",
+      "time": "7/3/2025, 2:40:09 PM",
+      "source": "Specials"
+    }
+  ],
+  "specials": [
+    {
+      "id": "1",
+      "name": "Kaju Curry Royal",
+      "price": 250,
+      "description": "Rich cashew gravy with Indian spices",
+      "image": "assets/kaju-curry.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Tricolor Veg Sizzler",
+      "price": 300,
+      "description": "Steamed veggies with paneer tikka & sauces",
+      "image": "assets/sizzler.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Navratna Korma",
+      "price": 270,
+      "description": "9 ingredient royal gravy curry",
+      "image": "assets/navratna.jpeg"
+    },
+    {
+      "id": "4",
+      "name": "Cheese Garlic Naan Combo",
+      "price": 190,
+      "description": "Cheese Naan + Butter Paneer + Raita",
+      "image": "assets/naan.jpeg"
+    },
+    {
+      "id": "5",
+      "name": "Kathiyawadi Sp. Sabji",
+      "price": 210,
+      "description": "Authentic Gujarati spicy curry & bajra roti",
+      "image": "assets/kathiyawadi.jpeg"
+    }
+  ],
+  "events": [
+    {
+      "id": "2",
+      "title": "Onam Sadhya Feast",
+      "date": "2025-09-05",
+      "location": "Dhameliya Restaurant, Surat",
+      "description": "Celebrate Onam with a full banana leaf meal including 15+ South Indian dishes."
+    },
+    {
+      "id": "3",
+      "title": "Navratri Special Menu Launch",
+      "date": "2025-10-02",
+      "location": "All Branches",
+      "description": "Try our new fasting-friendly specials and festive combos during Navratri."
+    }
+  ],
+  "chefs": [
+    {
+      "id": "1",
+      "name": "Chef Ramesh Patel",
+      "specialty": "Gujarati Thali",
+      "experience": "15 Years",
+      "bio": "Expert in traditional Gujarati dishes and sweets.",
+      "image": "assets/chef1.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Chef Kavita Sharma",
+      "specialty": "South Indian",
+      "experience": "10 Years",
+      "bio": "Master of dosas, idlis and coconut-based curries.",
+      "image": "assets/chef1.jpeg"
+    },
+    {
+      "id": "3",
+      "name": "Chef Manish Bhatt",
+      "specialty": "Punjabi Cuisine",
+      "experience": "12 Years",
+      "bio": "Loves making creamy paneer and tandoori platters.",
+      "image": "assets/chef2.jpg"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "1",
+      "name": "Dhruv Dhameliya",
+      "date": "2025-07-20",
+      "time": "19:00",
+      "guests": 4,
+      "contact": "+91-9876543210",
+      "specialRequest": "Vegetarian only, window seat"
+    },
+    {
+      "id": "110b",
+      "name": "John Doe",
+      "date": "2025-07-04",
+      "time": "22:00",
+      "guests": 6,
+      "contact": "7862832972",
+      "specialRequest": "Kaju paneer masala"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "1",
+      "name": "Dhruv Dhameliya",
+      "email": "dhruv@example.com",
+      "message": "Loved the food! Please share your festival menu.",
+      "submittedOn": "2025-07-03"
+    },
+    {
+      "id": "0e54",
+      "name": "John Doe",
+      "email": "dhruv123@gmail.com",
+      "message": "",
+      "submittedOn": "2025-07-03"
+    }
+  ],
+  "gallery": [
+    {
+      "id": "1",
+      "title": "Gujarati Thali",
+      "imageUrl": "assets/food1.jpeg",
+      "description": "A delicious traditional Gujarati thali."
+    },
+    {
+      "id": "2",
+      "title": "South Indian Feast",
+      "imageUrl": "assets/south-lunch.jpg",
+      "description": "Variety of dosa, idli, vada and chutneys."
+    },
+    {
+      "id": "3",
+      "title": "Punjabi Platter",
+      "imageUrl": "assets/food2.jpeg",
+      "description": "Creamy paneer and butter naan combo."
+    },
+    {
+      "id": "4",
+      "title": "Dessert Section",
+      "imageUrl": "assets/gallery4.jpg",
+      "description": "Sweet endings with gulab jamun and ras malai."
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "firstName": "Dhruv",
+      "middleName": "K.",
+      "lastName": "Dhameliya",
+      "dob": "2000-01-01",
+      "age": 25,
+      "email": "dhruv@example.com",
+      "password": "123456",
+      "contact": "9876543210"
+    },
+    {
+      "id": "4013",
+      "firstName": "kalpit ",
+      "middleName": "ashokbhai ",
+      "lastName": "gabani",
+      "dob": "2005-02-05",
+      "age": 20,
+      "email": "kalpit123@gmail.com",
+      "password": "123456",
+      "contact": "7862832972"
+    }
+  ]
+}
